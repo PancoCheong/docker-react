@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I am using Docker Compose now. Great. Update again and again.
+          I switched to feature branch.
         </p>
         <a
           className="App-link"
