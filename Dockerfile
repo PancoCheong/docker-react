@@ -13,3 +13,4 @@ FROM nginx
 # copy from builder phase
 COPY --from=builder /app/build /usr/share/nginx/html
 
+EXPOSE 8080/tcp
