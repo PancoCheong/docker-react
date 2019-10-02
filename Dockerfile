@@ -10,7 +10,6 @@ RUN npm run build
 
 # 2nd FROM statement mean start a new phase
 FROM nginx
+EXPOSE 80
 # copy from builder phase
 COPY --from=builder /app/build /usr/share/nginx/html
-
-EXPOSE 80/tcp
